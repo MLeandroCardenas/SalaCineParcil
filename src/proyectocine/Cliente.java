@@ -3,10 +3,12 @@ package proyectocine;
 
 public class Cliente {
     private String cliente;
-    private byte edad;
+    private int edad;
     private String genero;
+    private byte ubicacion[][];
+    private byte tipoSilla;
 
-    public Cliente(String cliente, byte edad, String genero) {
+    public Cliente(String cliente, int edad, String genero) {
         this.cliente = cliente;
         this.edad = edad;
         this.genero = genero;
@@ -20,7 +22,7 @@ public class Cliente {
         this.cliente = cliente;
     }
 
-    public byte getEdad() {
+    public int getEdad() {
         return edad;
     }
 
