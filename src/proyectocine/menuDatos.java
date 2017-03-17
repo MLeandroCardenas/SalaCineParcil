@@ -9,6 +9,7 @@ public class menuDatos {
     Cliente vector[];
     private short filas;
     private short columnas;
+    private int taquilla;
     private short sillasEjecutivas;
     private short sillasGenerales;
     private short sillasPreferenciales;
